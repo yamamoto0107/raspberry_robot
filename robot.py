@@ -1,7 +1,7 @@
 import l293d
 import time
 m1 = l293d.DC(22,18,16)
-m2 = l293d.DC(15,11,13)
+m2 = l293d.DC(15,13,11)
 def forward(m1,m2):
     m1.clockwise(speed=100)
     m2.clockwise(speed=100)
